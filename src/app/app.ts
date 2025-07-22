@@ -9,14 +9,16 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.css'
 })
 export class App {
+  //pass data to template
   data = "Sheikh Forid Ahmed Shanto";
 
+  //Data change
   name ="Sanvi Rahman";
-
   onChange() {
     this.name = "Shanta Islam Oboni";
   }
 
+  //pass data to template
   isDark = true;
   toggleTheme() {
     this.isDark = !this.isDark;
