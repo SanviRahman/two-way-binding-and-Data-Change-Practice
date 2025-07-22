@@ -11,9 +11,15 @@ import { FormsModule } from '@angular/forms';
 export class App {
   data="Sheikh Forid Ahmed Shanto";
 
-  name="Sanvi Rahman";
+  name=false;
 
   onChange(){
-    this.name="Shanta Islam Oboni";
+    this.name=!this.name;
   }
+
+  isDark=false;
+  toggleTheme(){
+    this.isDark =! this.isDark;
+  }
+
 }

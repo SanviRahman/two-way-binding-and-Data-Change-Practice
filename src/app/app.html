@@ -1,23 +1,29 @@
 <h1>Hello From TS Component:</h1>
 <div class="ts-component">
-  <h3>One way data binding is below form ts file to html file:</h3>
-  <h4>{{data}}</h4>
-
+  <h3>One way data binding (from TS file to HTML file):</h3>
+  <h4>{{ data }}</h4>
 </div>
 
-<br>
-<hr><br>
-<h1>Hello From HTML tamplate:</h1>
+<hr>
+
+<h1>Hello From HTML Template:</h1>
 <div class="html-component">
-  <h3>Other way data binding is below form html file to ts file using input:</h3>
-  <input [(ngModel)]="data" type="text" placeholder="Enter your name">
+  <h3>Two-way data binding (from HTML file to TS file using input):</h3>
+  <input [(ngModel)]="data" type="text" placeholder="Enter your name" />
 </div>
 
-<br><br>
 <hr>
 
 <h1>Data Change Process:</h1>
 <div class="event">
-  <h4>{{name}}</h4>
+  <h4>{{ name?'Sheikh Forid Ahmed Shanto':'Shanta Islam Oboni' }}</h4>
   <button (click)="onChange()">Change Data</button>
+</div>
+
+<hr>
+
+<h1>Theme Toggle (Data Change Example):</h1>
+<div class="theme-box">
+  <h4>{{ isDark ? 'Dark Mode' : 'Light Mode' }}</h4>
+  <button (click)="toggleTheme()">Toggle Theme</button>
 </div>
