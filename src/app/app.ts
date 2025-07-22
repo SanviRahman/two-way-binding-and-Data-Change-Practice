@@ -13,7 +13,7 @@ export class App {
   data = "Sheikh Forid Ahmed Shanto";
 
   //Data change
-  name ="Sanvi Rahman";
+  name = "Sanvi Rahman";
   onChange() {
     this.name = "Shanta Islam Oboni";
   }
