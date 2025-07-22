@@ -1,0 +1,23 @@
+.ts-component {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 20vh;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.html-component {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 20vh;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.event {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 20vh;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
