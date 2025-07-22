@@ -18,7 +18,7 @@ export class App {
     this.name = "Shanta Islam Oboni";
   }
 
-  //pass data to template
+  //pass data to template on click
   isDark = true;
   toggleTheme() {
     this.isDark = !this.isDark;
