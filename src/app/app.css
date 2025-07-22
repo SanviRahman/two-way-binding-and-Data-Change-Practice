@@ -2,9 +2,10 @@
 .html-component,
 .event,
 .theme-box {
+  background-color:antiquewhite;
   margin: 20px 0;
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 8px;
 }
 

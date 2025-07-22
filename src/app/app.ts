@@ -9,17 +9,17 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.css'
 })
 export class App {
-  data="Sheikh Forid Ahmed Shanto";
+  data = "Sheikh Forid Ahmed Shanto";
 
-  name=false;
+  name ="Sanvi Rahman";
 
-  onChange(){
-    this.name=!this.name;
+  onChange() {
+    this.name = "Shanta Islam Oboni";
   }
 
-  isDark=false;
-  toggleTheme(){
-    this.isDark =! this.isDark;
+  isDark = true;
+  toggleTheme() {
+    this.isDark = !this.isDark;
   }
 
 }
